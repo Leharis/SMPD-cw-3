@@ -1,0 +1,5 @@
+library(ahp)
+ahpFile <- system.file("extdata", "lodowki.ahp", package="ahp")
+lodowkiAhp <- Load(ahpFile)
+Calculate(lodowkiAhp)
+AnalyzeTable(lodowkiAhp)
